@@ -25,7 +25,15 @@ p {
     margin: 0;
     padding: 0;
 }
-
+.title{
+    text-align: center;
+}
+.title h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+}
 /* ===============================
         Nav Part Start
 ================================== */
@@ -235,4 +243,464 @@ nav ul li a.active::before{
 }
 /* ===============================
         Banner Part End
+================================== */
+/* ===============================
+        Story Part Start
+================================== */
+#story-part {
+    padding: 100px 0;
+    position: relative;
+    background: #050605;
+    z-index: 1;
+}
+#story-part .img{
+    position: relative;
+    z-index: 1;
+}
+#story-part .img img{
+    width: 100%;
+}
+#story-part .img .img-shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-75%);
+    -webkit-transform: translateX(-75%);
+    -moz-transform: translateX(-75%);
+    -ms-transform: translateX(-75%);
+    -o-transform: translateX(-75%);
+    height: 180%;
+    z-index: -1;
+}
+#story-part .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#story-part .img-overlay .round{
+    width: 125px;
+    height: 125px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#story-part .img-overlay .round i{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    text-align: center;
+    color: #ed5034;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+#story-part .text{
+    padding-top: 60px;
+}
+#story-part .text h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 60px;
+    position: relative;
+}
+#story-part .text h2::before{
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: #ed5034;
+}
+#story-part .text h2::after{
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 107px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+}
+#story-part .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 40px;
+}
+#story-part .text  .button a{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ed5034;
+    padding: 20px 30px;
+    background: url(../images/button-bg1.png) no-repeat center;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    border: 1px solid #2e3132;
+    margin-top: 60px;
+}
+#story-part .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+}
+
+/* ===============================
+        Story Part End
+================================== */
+/* ===============================
+        Happy hour Part Start
+================================== */
+#happy-hour{
+    background: url(../images/happy-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 60px  0;
+}
+#happy-hour .counter-up{
+    width: 340px;
+    margin-left: auto;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+#happy-hour .counter-up .counter-items{
+    background: url(../images/counter-bg.png) no-repeat center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #2e3132;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#happy-hour .counter-up .counter-items .text{
+    text-align: center;
+}
+#happy-hour .counter-up .counter-items .text p{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+}
+#happy-hour .counter-up .counter-items .text h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+#happy-hour .counter-up .happy{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#happy-hour .details {
+    margin-top: 110px;
+    padding-left: 80px;
+    border-left: 1px solid #2e3132;
+}
+#happy-hour .details .schedule{
+    position: relative;
+    margin-bottom: 60px;
+}
+#happy-hour .details .schedule::before{
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ed5034;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#happy-hour .details .schedule::after{
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: 57px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#happy-hour .details .schedule:last-child::before{
+    display: none;
+}
+#happy-hour .details .schedule:last-child::after{
+    display: none;
+}
+#happy-hour .details .schedule .day{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fff;
+}
+#happy-hour .details .schedule .time{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+}
+/* ===============================
+        Happy hour Part End
+================================== */
+/* ===============================
+        Team Part Start
+================================== */
+#team-part{
+    background: url(../images/team-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+}
+#team-part .team-slider{
+    margin-top: 70px;
+}
+#team-part .member{
+    text-align: center;
+    margin: 0 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+/* #team-part .member .img{
+    position: relative; 
+    z-index: 1;
+} */
+/* #team-part .member .img-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -1;
+} */
+#team-part .member .img img{
+    width: 100%;
+}
+#team-part .member h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#team-part .member h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+#team-part ul{
+    text-align: center;
+    margin-top: 60px;
+}
+#team-part ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#team-part  ul li button{
+    font-size: 0;
+    border: 0;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#team-part  .slick-active button{
+    background: #ed5034;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* ===============================
+        Team Part End
+================================== */
+/* ===============================
+        Gallery Part Start
+================================== */
+#gallery-part{
+    background: url(../images/gallery-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+}
+#gallery-part .item{
+    margin: 0 15px;
+    margin-top: 40px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#gallery-part .item img{
+    width: 100%;
+}
+#gallery-part .button{
+    text-align: center;
+}
+#gallery-part .button a {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ed5034;
+    padding: 20px 45px;
+    background: url(../images/button-bg1.png) no-repeat center;
+    background-size: cover;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    border: 1px solid #2e3132;
+    margin-top: 60px;
+}
+/* ===============================
+        Gallery Part End
+================================== */
+/* ===============================
+        Reservation Part Start
+================================== */
+#resev-part{
+    background: url(../images/reservaiton-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+#resev-part img{
+    width: 100%;
+}
+#resev-part form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#resev-part form input{
+    width: 49%;
+    background: transparent;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #2e3132;
+    margin-bottom: 15px;
+    padding: 18px 20px;
+}
+#resev-part form input::placeholder{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+#resev-part form input:focus-visible{
+    outline: #2e3132;
+}
+#resev-part form select{
+    width: 32%;
+    background: transparent;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #2e3132;
+    margin-bottom: 15px;
+    padding: 18px 20px;
+}
+#resev-part form select option{
+    background: transparent;
+    color: #fff;
+}
+#resev-part textarea{
+    width: 100%;
+    height: 200px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #2e3132;
+    resize: none;
+    background: transparent;
+    padding: 18px 20px;
+}
+#resev-part textarea::placeholder{
+    ont-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+#resev-part textarea:focus-visible{
+    outline: transparent;
+}
+#resev-part button{
+    width: 100%;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ed5034;
+    margin-top: 30px;
+    padding: 20px 0;
+    background: url(../images/button-bg1.png) no-repeat center;
+    background-size: cover;
+    border: 1px solid #2e3132;
+}
+/* ===============================
+        Reservation Part End
 ================================== */
