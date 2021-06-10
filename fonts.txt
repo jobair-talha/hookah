@@ -10,3 +10,11 @@ Bold 700
 font-family: 'Yeseva One', cursive;
 
 Regular 400
+
+
+font-family: 'Arimo', sans-serif;
+
+Regular 400
+Medium 500
+Semi-bold 600
+Bold 700

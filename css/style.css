@@ -382,6 +382,8 @@ nav ul li a.active::before{
     background: url(../images/happy-bg.png) no-repeat center;
     background-size: cover;
     padding: 60px  0;
+    position: relative;
+    z-index: 2;
 }
 #happy-hour .counter-up{
     width: 340px;
@@ -485,6 +487,11 @@ nav ul li a.active::before{
     font-weight: 300;
     font-size: 24px;
     color: #fff;
+}
+#happy-hour .happy-overlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /* ===============================
         Happy hour Part End
@@ -625,8 +632,53 @@ nav ul li a.active::before{
     padding: 100px 0;
 
 }
-#resev-part img{
+#resev-part .img{
+    position: relative;
+    z-index: 1;
+}
+#resev-part .img img{
     width: 100%;
+}
+#resev-part .img .img-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 190%;
+    transform: translate(-50%,-40%);
+    z-index: -1;
+    -webkit-transform: translate(-50%,-40%);
+    -moz-transform: translate(-50%,-40%);
+    -ms-transform: translate(-50%,-40%);
+    -o-transform: translate(-50%,-40%);
+    opacity: .8;
+}
+#resev-part h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+    position: relative;
+}
+#resev-part h2::before{
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 0;
+    width: 160px;
+    height: 3px;
+    background: #ed5034;
+
+}
+#resev-part h2::after{
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 165px;
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+
 }
 #resev-part form{
     display: flex;
@@ -703,4 +755,103 @@ nav ul li a.active::before{
 }
 /* ===============================
         Reservation Part End
+================================== */
+/* ===============================
+        Testimonial Part Start
+================================== */
+#testi-part{
+    background: #050505;
+    padding: 60px 0;
+}
+#testi-part .testi-slider{
+    width: 770px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #0a0b0c;
+}
+#testi-part .item{
+    display: flex;
+}
+#testi-part .item .text{
+  padding: 0px 30px;
+  padding-top: 40px;
+
+}
+#testi-part .item .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+#testi-part .item .text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+}
+#testi-part .item .text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+#testi-part .item .text .icon i{
+    font-size: 20px;
+    color: #ed5034;
+}
+#testi-part .prev{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #ed5034;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#testi-part .prev:hover{
+    color: #fff;
+    background: #ed5034;
+}
+#testi-part .next{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #ed5034;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+    -webkit-transform: translate(50%,-50%);
+    -moz-transform: translate(50%,-50%);
+    -ms-transform: translate(50%,-50%);
+    -o-transform: translate(50%,-50%);
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#testi-part .next:hover{
+    color: #fff;
+    background: #ed5034;
+}
+/* ===============================
+        Testimonial Part End
 ================================== */
