@@ -181,3 +181,12 @@ $('.testi-slider').slick({
     // instead of a settings object
   ]
 });
+
+
+// Venu Box
+$(document).ready(function(){
+  $('.venobox').venobox(); 
+});
+$('.venobox').venobox({
+  spinner: 'cube-grid',              
+});
