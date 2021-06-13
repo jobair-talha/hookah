@@ -1,4 +1,4 @@
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
 
 Thin 100
 Light 300

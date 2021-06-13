@@ -46,7 +46,7 @@ nav{
     z-index: 999;
 }
 nav ul li a{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #fff !important;
@@ -130,7 +130,7 @@ nav ul li a.active::before{
     position: relative;
 }
 #banner-part .overlay h3{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 36px;
     color: #fff;
@@ -145,7 +145,7 @@ nav ul li a.active::before{
     margin: 0 auto;
 }
 #banner-part .overlay h4{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 28px;
     color: #fff;
@@ -242,8 +242,42 @@ nav ul li a.active::before{
     color: #ed5034;
 }
 /* ===============================
+        About banner Part Start
+================================== */
+#about #banner-part .overlay{
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+#about #banner-part .overlay p{
+   font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #fff;
+}
+/* ===============================
+        About banner Part End
+================================== */
+/* ===============================
+        Gallery banner Part Start
+================================== */
+#gallery #banner-part .overlay{
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+#gallery #banner-part .overlay p{
+   font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #fff;
+}
+/* ===============================
+        Gallery banner Part End
+================================== */
+/* ===============================
         Banner Part End
 ================================== */
+
+
 /* ===============================
         Story Part Start
 ================================== */
@@ -263,13 +297,13 @@ nav ul li a.active::before{
 #story-part .img .img-shape {
     position: absolute;
     bottom: 37px;
-    left: 0;
+    left: 15px;
     transform: translateX(-60%);
     -webkit-transform: translateX(-60%);
     -moz-transform: translateX(-60%);
     -ms-transform: translateX(-60%);
     -o-transform: translateX(-60%);
-    height: 126%;
+    width: 70%;
     z-index: -1;
 }
 #story-part .img-overlay{
@@ -376,7 +410,7 @@ nav ul li a.active::before{
     background: #ed5034;
 }
 #story-part .text p{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #fff;
@@ -423,6 +457,96 @@ nav ul li a.active::before{
     Home02page Story Part End
 ================================== */
 /* ===============================
+    Aboutpage Story Part Start
+================================== */
+#about #story-part{
+    padding-bottom: 0;
+}
+#about #story-part .story-item{
+    display: flex;
+    margin-top: 40px;
+}
+#about #story-part .story-item .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+#about #story-part .story-item .img img{
+    width: 100%;
+}
+#about #story-part .story-item .img .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#about #story-part .story-item .img:hover .img-overlay{
+    opacity: 1;
+}
+#about #story-part .story-item .img .img-overlay .icon{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+}
+#about #story-part .story-item .img .img-overlay .icon i{
+    font-size: 16px;
+}
+#about #story-part .counter-part{
+    background: url(../images/counterUp-bg.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin-top: 60px;
+}
+#about #story-part .counter-part .counter-item{
+    text-align: center;
+}
+#about #story-part .counter-part .counter-item .value{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+}
+#about #story-part .counter-part .counter-item .rate{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+}
+
+#about #story-part .counter-part .counter-item p{
+   font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+}
+/* ===============================
+    Aboutpage Story Part End
+================================== */
+/* ===============================
         Story Part End
 ================================== */
 
@@ -435,7 +559,7 @@ nav ul li a.active::before{
     background-size: cover;
     padding: 60px  0;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 #happy-hour .counter-up{
     width: 340px;
@@ -529,13 +653,13 @@ nav ul li a.active::before{
     display: none;
 }
 #happy-hour .details .schedule .day{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 26px;
     color: #fff;
 }
 #happy-hour .details .schedule .time{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 24px;
     color: #fff;
@@ -544,6 +668,7 @@ nav ul li a.active::before{
     position: absolute;
     bottom: 0;
     right: 0;
+    z-index: -1;
 }
 /* ===============================
         Happy hour Part End
@@ -575,7 +700,7 @@ nav ul li a.active::before{
     width: 100%;
 }
 #team-part .member h3{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 24px;
     color: #fff;
@@ -583,7 +708,7 @@ nav ul li a.active::before{
     margin-bottom: 15px;
 }
 #team-part .member h4{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #fff;
@@ -628,8 +753,23 @@ nav ul li a.active::before{
     -o-transform: translate(-80%,-65%);
 }
 /* ===============================
+        About team Part Start
+================================== */
+#about #team-part .overlay{
+    top: 36%;
+}
+#about #team-part{
+    padding-bottom: 100px;
+}
+/* ===============================
+        About team Part End
+================================== */
+/* ===============================
         Team Part End
 ================================== */
+
+
+
 /* ===============================
         Gallery Part Start
 ================================== */
@@ -693,9 +833,31 @@ nav ul li a.active::before{
     border: 1px solid #2e3132;
     margin-top: 60px;
 }
+/* ==================================
+       Gallerypage gallery Part start
+====================================== */
+#gallery #gallery-part .gallery-element{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#gallery #gallery-part .item{
+    width: 20%;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+#gallery-part .item .overlay{
+    right: 25px;
+}
+/* =================================
+       Gallerypage gallery Part End
+==================================== */
 /* ===============================
         Gallery Part End
 ================================== */
+
+
 /* ===============================
         Reservation Part Start
 ================================== */
@@ -789,9 +951,13 @@ nav ul li a.active::before{
     margin-bottom: 15px;
     padding: 18px 20px;
 }
+
 #resev-part form select option{
-    background: transparent;
-    color: #fff;
+    background: #fff;
+    color: #2e3132;
+}
+#resev-part form select option:focus-visible{
+    outline: #2e3132;
 }
 #resev-part textarea{
     width: 100%;
@@ -851,20 +1017,20 @@ nav ul li a.active::before{
 
 }
 #testi-part .item .text p{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #fff;
 }
 #testi-part .item .text h3{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: #fff;
     margin-top: 30px;
 }
 #testi-part .item .text h4{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: #fff;
@@ -962,7 +1128,7 @@ footer .item h3::before{
     -o-transform: translateX(-50%);
 }
 footer .item p{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #fff;
@@ -1038,7 +1204,7 @@ footer .bottom {
     text-align: center;
 }
 footer .bottom p{
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #fff;
@@ -1046,6 +1212,24 @@ footer .bottom p{
 footer .bottom i{
     font-size: 20px;
 }
+/* ===============================
+        About footer Part Start
+================================== */
+#about footer{
+    padding-top: 60px;
+}
+/* ===============================
+        About footer Part End
+================================== */
+/* ===============================
+        Gallery footer Part Start
+================================== */
+#gallery footer{
+   margin-top: -15px;
+}
+/* ===============================
+        Gallery footer Part End
+================================== */
 /* ===============================
         Footer Part End
 ================================== */

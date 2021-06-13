@@ -190,3 +190,11 @@ $(document).ready(function(){
 $('.venobox').venobox({
   spinner: 'cube-grid',              
 });
+
+// Counter Up
+jQuery(document).ready(function($) {
+  $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+  });
+});
