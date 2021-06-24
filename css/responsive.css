@@ -1,0 +1,1058 @@
+@media (min-width:320px) and (max-width:575.98px) {
+
+    /* ======================================
+            Nav Part Start
+    ========================================== */
+    nav .bar {
+        color: #fff;
+    }
+
+    nav ul {
+        background: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+
+    nav ul li a:hover:before {
+        width: 0;
+    }
+
+    nav ul li a.active {
+        background: transparent;
+        color: #fff !important;
+    }
+
+    nav ul li a.active:hover {
+        background: #fff;
+        color: #ed5034 !important;
+    }
+
+    nav ul li a.active::before {
+        width: 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-left: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+    .menufix {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .menufix ul li a.active:hover::before {
+        width: 0;
+    }
+
+    /* ======================================
+            Nav Part End
+    ========================================== */
+    /* ======================================
+            Banner Part Start
+    ========================================== */
+    #banner-part .overlay {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    #banner-part .overlay h3 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    #banner-part .overlay h1 {
+        font-size: 60px;
+        width: auto;
+    }
+
+    #banner-part .prev {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #banner-part .next {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    /* ===============================
+        About banner Part Start
+    ================================== */
+    #about #banner-part .overlay {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    /* ===============================
+        About banner Part End
+    ================================== */
+    /* ===============================
+        Gallery banner Part Start
+    ================================== */
+    #gallery #banner-part .overlay {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    /* ===============================
+        Gallery banner Part End
+    ================================== */
+    /* ===============================
+        Contact banner Part Start
+    ================================== */
+    #contact-page #banner-part .overlay {
+        padding-top: 120px;
+    }
+    #contact-page #banner-part .overlay h1 {
+        font-size: 40px;
+    }
+    #contact-page #banner-part .overlay .counter-up {
+        width: auto;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+    #contact-page #banner-part .overlay .counter-up .counter-items{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    /* ===============================
+        Contact banner Part End
+    ================================== */
+    /* ======================================
+            Banner Part End
+    ========================================== */
+
+
+    /* ======================================
+            Story Part Start
+    ========================================== */
+    #story-part {
+        padding: 60px 0;
+    }
+
+    #story-part .text {
+        padding-top: 40px;
+    }
+
+    #story-part .text .button a {
+        margin-top: 30px;
+    }
+
+    #story-part .img-overlay .icon {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    /* ======================================
+           About story Part End
+    ========================================== */
+    #about #story-part .story-item .img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    #about #story-part .story-item .img .img-overlay .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #about #story-part .counter-part {
+        display: inline;
+        background: none;
+    }
+
+    #about #story-part .counter-part .counter-item {
+        margin-bottom: 30px;
+    }
+    /* ======================================
+           About story Part End
+    ========================================== */
+    /* ======================================
+            Story Part End
+    ========================================== */
+    /* ======================================
+            Happy hour Part Start
+    ========================================== */
+    #happy-hour {
+        padding: 30px 0;
+    }
+
+    #happy-hour .counter-up {
+        width: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    #happy-hour .counter-up .counter-items {
+        width: 120px;
+        height: 120px;
+    }
+
+    #happy-hour .counter-up .counter-items .text p {
+        font-size: 40px;
+    }
+
+    #happy-hour .details {
+        margin-top: 60px;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    #happy-hour .details .schedule::before {
+        bottom: -20px;
+    }
+
+    #happy-hour .details .schedule::after {
+        bottom: -20px;
+    }
+
+    #happy-hour .details .schedule:last-child {
+        margin-bottom: 0;
+    }
+
+    /* ======================================
+            Happy hour Part End
+    ========================================== */
+    /* ======================================
+            Team Part Start
+    ========================================== */
+    #team-part {
+        padding: 60px 0;
+    }
+
+    #team-part .member .overlay {
+        transform: translateX(-42%);
+        -webkit-transform: translateX(-42%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-42%);
+        -o-transform: translateX(-42%);
+        opacity: 1;
+    }
+
+    /* ======================================
+            Team Part End
+    ========================================== */
+    /* ======================================
+            Gallery Part Start
+    ========================================== */
+    #gallery-part {
+        padding-top: 30px;
+    }
+
+    #gallery-part .item {
+        margin: 0 0px;
+        margin-top: 30px;
+    }
+
+    #gallery-part .button a {
+        margin-top: 30px;
+    }
+
+    #gallery-part .item .overlay {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* ======================================
+            Gallery page gallery Part Start
+    ========================================== */
+    #gallery #gallery-part .item{
+        width: 50%;
+    }
+    #gallery-part .item .overlay {
+        width: 60px;
+        height: 60px;
+    }
+    #gallery-part .item .overlay i {
+        font-size: 32px;
+    }
+    /* ======================================
+            Gallery page gallery Part End
+    ========================================== */
+    /* ======================================
+            Gallery Part End
+    ========================================== */
+
+
+
+    /* ======================================
+            Reservation Part Start
+    ========================================== */
+    #resev-part {
+        padding: 60px 0;
+    }
+
+    #resev-part .img .img-overlay {
+        display: none;
+    }
+
+    #resev-part h2 {
+        margin-top: 30px;
+    }
+
+    #resev-part form input {
+        width: 100%;
+    }
+
+    /* ======================================
+            Reservation Part End
+    ========================================== */
+    /* ======================================
+            Reservation Part Start
+    ========================================== */
+    #testi-part {
+        padding: 30px 0;
+    }
+
+    /* ======================================
+            Reservation Part End
+    ========================================== */
+    /* ======================================
+            Testimonial Part End
+    ========================================== */
+    #testi-part .testi-slider {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #testi-part .item {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    #testi-part .item .img img {
+        width: 100%;
+    }
+
+    #testi-part .item .text {
+        padding: 0;
+    }
+
+    /* ======================================
+            Testimonial Part End
+    ========================================== */
+    /* ======================================
+            Footer Part Start
+    ========================================== */
+    footer {
+        padding-top: 30px;
+    }
+
+    footer .item h3 {
+        margin-top: 30px;
+    }
+
+    footer .social .icon::before {
+        display: none;
+    }
+
+    footer .social .icon::after {
+        display: none;
+    }
+
+    footer .social .icon a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 14px;
+    }
+
+    /* ======================================
+            Footer Part End
+    ========================================== */
+
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    /* ======================================
+            Nav Part Start
+    ========================================== */
+    nav .bar {
+        color: #fff;
+    }
+
+    nav ul {
+        background: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+
+    nav ul li a:hover:before {
+        width: 0;
+    }
+
+    nav ul li a.active {
+        background: transparent;
+        color: #fff !important;
+    }
+
+    nav ul li a.active:hover {
+        background: #fff;
+        color: #ed5034 !important;
+    }
+
+    nav ul li a.active::before {
+        width: 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-left: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+    .menufix {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .menufix ul li a.active:hover::before {
+        width: 0;
+    }
+
+    /* ======================================
+            Nav Part End
+    ========================================== */
+    /* ======================================
+            Banner Part Start
+    ========================================== */
+    #banner-part .overlay {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    #banner-part .overlay h3 {
+        margin-bottom: 50px;
+    }
+
+    #banner-part .overlay h1 {
+        font-size: 60px;
+    }
+
+    #banner-part .prev {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #banner-part .next {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    /* ===============================
+        About banner Part Start
+    ================================== */
+    #about #banner-part .overlay {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    /* ===============================
+        About banner Part End
+    ================================== */
+        /* ===============================
+        Contact banner Part Start
+    ================================== */
+    #contact-page #banner-part .overlay {
+        padding-top: 120px;
+    }
+    #contact-page #banner-part .overlay .counter-up {
+        width: auto;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+    #contact-page #banner-part .overlay .counter-up .counter-items{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    /* ===============================
+        Contact banner Part End
+    ================================== */
+    /* ======================================
+            Banner Part End
+    ========================================== */
+
+
+    /* ======================================
+            Story Part Start
+    ========================================== */
+    #story-part {
+        padding: 60px 0;
+    }
+
+    #story-part .text {
+        padding-top: 40px;
+    }
+
+    #story-part .text .button a {
+        margin-top: 30px;
+    }
+    /* ======================================
+           About story Part End
+    ========================================== */
+    #about #story-part .story-item .img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    #about #story-part .story-item .img .img-overlay .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #about #story-part .counter-part {
+      flex-wrap: wrap;
+    }
+
+    #about #story-part .counter-part .counter-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    /* ======================================
+           About story Part End
+    ========================================== */
+    /* ======================================
+            Story Part End
+    ========================================== */
+
+
+    /* ======================================
+            Happy hour Part Start
+    ========================================== */
+    #happy-hour {
+        padding: 30px 0;
+    }
+
+    #happy-hour .counter-up {
+        width: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    #happy-hour .counter-up .counter-items {
+        width: 120px;
+        height: 120px;
+    }
+
+    #happy-hour .counter-up .counter-items .text p {
+        font-size: 40px;
+    }
+
+    #happy-hour .details {
+        margin-top: 60px;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    #happy-hour .details .schedule:last-child {
+        margin-bottom: 0;
+    }
+
+    /* ======================================
+            Happy hour Part End
+    ========================================== */
+
+
+    /* ======================================
+            Team Part Start
+    ========================================== */
+    #team-part {
+        padding: 60px 0;
+    }
+
+    #team-part .member .overlay {
+        transform: translateX(-42%);
+        -webkit-transform: translateX(-42%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-42%);
+        -o-transform: translateX(-42%);
+    }
+
+    #team-part ul {
+        bottom: -40px;
+    }
+
+    /* ======================================
+            Team Part End
+    ========================================== */
+
+
+    /* ======================================
+            Gallery Part Start
+    ========================================== */
+    #gallery-part {
+        padding-top: 30px;
+    }
+
+    #gallery-part .button a {
+        margin-top: 30px;
+    }
+
+    #gallery-part .item .overlay {
+        width: 60px;
+        height: 60px;
+    }
+
+    #gallery-part .item .overlay i {
+        font-size: 30px;
+    }
+    /* ======================================
+            Gallery page gallery Part Start
+    ========================================== */
+    #gallery #gallery-part .item{
+        width: 50%;
+    }
+    #gallery-part .item .overlay {
+        width: 60px;
+        height: 60px;
+    }
+    #gallery-part .item .overlay i {
+        font-size: 32px;
+    }
+    /* ======================================
+            Gallery page gallery Part End
+    ========================================== */
+    /* ======================================
+            Gallery Part End
+    ========================================== */
+
+
+    /* ======================================
+            Reservation Part Start
+    ========================================== */
+    #resev-part {
+        padding: 60px 0;
+    }
+
+    #resev-part .img .img-overlay {
+        display: none;
+    }
+
+    #resev-part h2 {
+        margin-top: 30px;
+    }
+
+    /* ======================================
+            Reservation Part End
+    ========================================== */
+    /* ======================================
+    Testimonial Part Stat
+    ========================================== */
+    #testi-part {
+        padding: 30px 0;
+    }
+    #testi-part .testi-slider {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #testi-part .item {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    #testi-part .item .img img {
+        width: 100%;
+    }
+
+    #testi-part .item .text {
+        padding: 0px 20px;
+        padding-top: 40px;
+    }
+
+    /* ======================================
+            Testimonial Part End
+    ========================================== */
+    /* ======================================
+            Footer Part Start
+    ========================================== */
+    footer {
+        padding-top: 30px;
+    }
+
+    footer .item h3 {
+        margin-top: 30px;
+    }
+
+    footer .social .icon::before {
+        display: none;
+    }
+
+    footer .social .icon::after {
+        display: none;
+    }
+
+    footer .social .icon a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 14px;
+    }
+
+    /* ======================================
+            Footer Part End
+    ========================================== */
+
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    /* ======================================
+            Nav Part Start
+    ========================================== */
+    nav .bar {
+        color: #fff;
+    }
+
+    nav ul {
+        background: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+
+    nav ul li a:hover:before {
+        width: 0;
+    }
+
+    nav ul li a.active {
+        background: transparent;
+        color: #fff !important;
+    }
+
+    nav ul li a.active:hover {
+        background: #fff;
+        color: #ed5034 !important;
+    }
+
+    nav ul li a.active::before {
+        width: 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin-left: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0rem;
+    }
+
+    .menufix {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .menufix ul li a.active:hover::before {
+        width: 0;
+    }
+
+    /* ======================================
+            Nav Part End
+    ========================================== */
+    /* ======================================
+            Banner Part Start
+    ========================================== */
+    #banner-part .overlay {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    #banner-part .overlay h3 {
+        margin-bottom: 50px;
+    }
+
+    #banner-part .overlay h1 {
+        font-size: 60px;
+    }
+
+    #banner-part .prev {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #banner-part .next {
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    /* ======================================
+            Banner Part End
+    ========================================== */
+    /* ======================================
+            Story Part Start
+    ========================================== */
+    #story-part {
+        padding: 60px 0;
+    }
+
+    #story-part .text {
+        padding-top: 40px;
+    }
+
+    #story-part .text .button a {
+        margin-top: 30px;
+    }
+    #story-part .img .img-shape{
+        bottom: 60px;
+    }
+    /* ======================================
+            About story Part End
+    ========================================== */
+    #about #story-part .counter-part {
+        flex-wrap: wrap;
+      }
+  
+      #about #story-part .counter-part .counter-item {
+          width: 50%;
+          margin-bottom: 30px;
+      }
+    /* ======================================
+            About story Part End
+    ========================================== */
+
+    /* ======================================
+            Story Part End
+    ========================================== */
+
+
+    /* ======================================
+            Happy hour Part Start
+    ========================================== */
+    #happy-hour {
+        padding: 30px 0;
+    }
+
+    #happy-hour .counter-up {
+        width: 280px;
+        margin-top: 20px;
+    }
+
+    #happy-hour .counter-up .counter-items {
+        width: 120px;
+        height: 120px;
+    }
+
+    #happy-hour .counter-up .counter-items .text p {
+        font-size: 40px;
+    }
+
+    #happy-hour .details {
+        margin-top: 60px;
+    }
+
+    #happy-hour .details .schedule:last-child {
+        margin-bottom: 0;
+    }
+
+    /* ======================================
+            Happy hour Part End
+    ========================================== */
+    /* ======================================
+            Team Part Start
+    ========================================== */
+    #team-part {
+        padding: 60px 0;
+    }
+
+    #team-part .member .overlay {
+        transform: translateX(-42%);
+        -webkit-transform: translateX(-42%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-42%);
+        -o-transform: translateX(-42%);
+    }
+
+    /* ======================================
+            Team Part End
+    ========================================== */
+    /* ======================================
+            Gallery Part Start
+    ========================================== */
+    #gallery-part {
+        padding-top: 30px;
+    }
+
+    #gallery-part .button a {
+        margin-top: 30px;
+    }
+
+    #gallery-part .item .overlay {
+        width: 60px;
+        height: 60px;
+    }
+
+    #gallery-part .item .overlay i {
+        font-size: 30px;
+    }
+  /* ======================================
+            Gallery page gallery Part Start
+    ========================================== */
+    #gallery #gallery-part .item{
+        width: 50%;
+    }
+    /* ======================================
+            Gallery page gallery Part End
+    ========================================== */
+    /* ======================================
+            Gallery Part End
+    ========================================== */
+    /* ======================================
+            Reservation Part Start
+    ========================================== */
+    #resev-part {
+        padding: 60px 0;
+    }
+
+    /* ======================================
+            Reservation Part End
+    ========================================== */
+    /* ======================================
+            Reservation Part Start
+    ========================================== */
+    #testi-part {
+        padding: 30px 0;
+    }
+
+    /* ======================================
+            Reservation Part End
+    ========================================== */
+    /* ======================================
+            Testimonial Part End
+    ========================================== */
+    #testi-part .testi-slider {
+        width: 700px;
+    }
+
+    #testi-part .item .text {
+        padding: 15px 30px;
+        padding-top: 0px;
+    }
+
+    /* ======================================
+            Testimonial Part End
+    ========================================== */
+    /* ======================================
+            Footer Part Start
+    ========================================== */
+    footer {
+        padding-top: 30px;
+    }
+
+    footer .item h3 {
+        margin-top: 30px;
+    }
+
+    footer .social .icon::before {
+        display: none;
+    }
+
+    footer .social .icon::after {
+        display: none;
+    }
+
+    footer .social .icon a i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 14px;
+    }
+
+    /* ======================================
+            Footer Part End
+    ========================================== */
+
+
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    /* ======================================
+            Gallery Part Start
+    ========================================== */
+    #gallery-part .item .overlay {
+        width: 70px;
+        height: 70px;
+    }
+
+    #gallery-part .item .overlay i {
+        font-size: 32px;
+    }
+
+    /* ======================================
+            Gallery Part End
+    ========================================== */
+       /* ======================================
+            About story Part End
+    ========================================== */
+    #about #story-part .counter-part {
+        flex-wrap: wrap;
+      }
+  
+      #about #story-part .counter-part .counter-item {
+          width: 50%;
+          margin-bottom: 30px;
+      }
+    /* ======================================
+            About story Part End
+    ========================================== */
+      /* ======================================
+            Gallery page gallery Part Start
+    ========================================== */
+    #gallery-part .item .overlay {
+        width: 60px;
+        height: 60px;
+    }
+    #gallery-part .item .overlay i {
+        font-size: 32px;
+    }
+    /* ======================================
+            Gallery page gallery Part End
+    ========================================== */
+    /* ======================================
+            Footer Part Start
+    ========================================== */
+    footer .social .icon::before {
+        width: 250px;
+    }
+
+    footer .social .icon::after {
+        width: 250px;
+    }
+
+    /* ======================================
+            Footer Part End
+    ========================================== */
+
+}
