@@ -1306,11 +1306,11 @@ footer .item p{
 }
 footer .social{
     margin-top: 60px;
-    margin-bottom: 30px;
     text-align: center;
 }
 footer .social .icon{
     position: relative;
+    margin-bottom: 30px;
 
 }
 footer .social .icon::before{
